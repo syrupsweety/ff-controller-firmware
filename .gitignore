@@ -1,0 +1,33 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.elf
+*.uf2
+*.bin
+*.hex
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pico SDK
+pico-sdk/
+pico-sdk-import.cmake
+
+# ROS2
+ros2_ws/
+install/
+log/
+build/ros/
+
+# Python
+__pycache__/
+*.pyc
